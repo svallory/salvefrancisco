@@ -76,7 +76,8 @@
   color: #fff;
 }
 
-.followus.intro h1 {
+h1.arrow,
+.intro h1.arrow {
   font-size: 20px;
 }
 
@@ -186,6 +187,18 @@
   background: #9569D5;
 }
 
+.donations .contact-details {
+  margin: 40px 0;
+}
+
+h1.arrow {
+  color: #333;
+}
+
+h1.arrow.arrow-light {
+  background-image: url('../img/h1-bg-light.png');
+}
+
 .donations h1 small {
   color: #f5f5f5;
 }
@@ -208,4 +221,47 @@ footer .credit {
 
 .fb-like {
   margin-left: 30px;
+}
+
+/****
+HASHTAG SECTION
+****/
+
+.hashtag {
+  background: #C62828;
+}
+
+.hashtag h1 {
+  color: #f5f5f5;
+}
+
+.hashtag .tag {
+  color: #222;
+}
+
+/****
+ CLIPPING
+****/
+.clipping ul {
+ list-style: none;
+}
+
+.clipping li {
+  height: 150px;
+  vertical-align: middle;
+  line-height: 150px;
+}
+
+li.vox img {
+  background-color: #004864;
+  padding: 10px;
+}
+
+li.rac img {
+  background-color: #005381;
+  padding: 10px;
+}
+
+.clipping .name {
+  display: none;
 }
