@@ -39,6 +39,11 @@
   margin: 1em;
 }
 
+.donations .accent {
+  color: #FFD600;
+  font-weight: bold;
+}
+
 .donation-btn {
   border-radius: 6px;
   padding: 10px 16px;
