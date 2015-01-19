@@ -345,3 +345,35 @@ METAS
   font-weight: normal;
   font-size: 12px;
 }
+
+/**
+ * POSTS
+ */
+.posts {
+  text-align: left;
+}
+
+.post .date {
+  display: none;
+}
+
+.post h3 {
+  color: rgb(255, 255, 255);
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  height: 22px;
+  line-height: 22px;
+  text-align: left;
+  text-shadow: rgba(0, 0, 0, 0.00392157) 1px 1px 1px;
+  margin: 0;
+  padding: 0;
+}
+
+.post h3 a {
+  color: #fff;
+}
+
+.post h3 a:hover {
+  color: #FFD600;
+}
