@@ -270,3 +270,78 @@ li.rac img {
 .clipping .name {
   display: none;
 }
+
+/***
+METAS
+****/
+.metas {
+  background: #FFE082;
+}
+
+/**
+ * INSTAFOLLOW
+ */
+
+.sn-follow {
+  height: 100px;
+  text-align: center;
+}
+
+.sn-follow .fb-like-box {
+  margin: auto;
+  width: 200px;
+  overflow: hidden;
+}
+
+.instafollow {
+  width: 310px;
+  margin: auto;
+}
+
+.instafollow-cover {
+  position: relative;
+  float: left;
+  z-index: 999;
+  background: #fff;
+  padding: 6px;
+  height: 43px;
+  box-sizing: border-box;
+  margin-bottom: -45px;
+  font-weight: bold;
+  width: 220px;
+  text-align: left;
+  margin-left: 2px;
+  border-radius: 5px;
+}
+
+.instafollow-icon {
+  float: left;
+  width: 42px;
+  margin: -3px 5px 0 -4px;
+}
+
+.instafollow-user {
+  float: left;
+  color: #3f729b;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.instagram-media {
+  height: 48px !important;
+}
+
+.instafollow-logo {
+  display: inline-block;
+  float: left;
+  height: 30px;
+  width: 120px;
+  background-image: url(http://d36xtkk24g8jdx.cloudfront.net/bluebar/ab9cf6a/images/shared/shared-assets.png);
+  background-position: 20px -63px;
+  background-size: 100px;
+  line-height: 23px;
+  font-weight: normal;
+  font-size: 12px;
+}
