@@ -1,0 +1,54 @@
+/*
+Ribbon: 280 x 110
+*/
+
+/*
+  Colors:
+
+  yellow: #f0c02d
+
+*/
+
+.load-photo {
+  text-align: center;
+  margin: 30px auto;
+}
+
+#composer {
+  position: relative;
+  max-width: 400px;
+  margin: 20px auto 0;
+}
+
+#composer img {
+  max-width: 400px;
+}
+
+#ribbon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+}
+
+.select-color {
+  cursor: pointer;
+}
+
+.download {
+  margin-top: 50px;
+  text-align: center;
+}
+
+input[type=submit] {
+  width: 50%;
+  transition: all 1s;
+}
