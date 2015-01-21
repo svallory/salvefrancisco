@@ -377,3 +377,7 @@ METAS
 .post h3 a:hover {
   color: #FFD600;
 }
+
+.camisetas img {
+  width: 100%;
+}

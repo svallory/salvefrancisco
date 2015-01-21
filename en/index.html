@@ -38,7 +38,8 @@
   <!-- // facebook tags -->
 
   <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.1/lumen/bootstrap.min.css" rel="stylesheet">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="/css/flexslider.css" rel="stylesheet" >
   <link href="/css/styles.css" rel="stylesheet">
@@ -67,9 +68,9 @@
   <header id="home">
     <div class="langs">
       <ul class="social-buttons">
-        <li><a href="http://salvefrancisco.com/" class="social-btn lang-btn pt-btn"><img src="/img/flags/brazil.png"></a></li>
-        <li><a href="http://salvefrancisco.com/es/" class="social-btn lang-btn es-btn"><img src="/img/flags/mexico.png"></a></li>
-        <li><a href="http://savefrancisco.com" class="social-btn lang-btn en-btn"><img src="/img/flags/us.png"></a></li>
+        <li><a href="/" class="social-btn lang-btn pt-btn"><img src="/img/flags/brazil.png"></a></li>
+        <li><a href="/es/" class="social-btn lang-btn es-btn"><img src="/img/flags/mexico.png"></a></li>
+        <li><a href="/en/" class="social-btn lang-btn en-btn"><img src="/img/flags/us.png"></a></li>
       </ul>
     </div>
     <section class="hero" id="hero">
@@ -200,6 +201,13 @@
               </span>
             </p>
           </div>
+          <br><br>
+          <div class="light-box box-hover">
+            <h2 class="pt"><i class="fa fa-flag"></i><span>Coloque a fita na sua foto</span></h2>
+            <h2 class="es"><i class="fa fa-flag"></i><span>Ponga la cinta en su foto</span></h2>
+            <h2 class="en"><i class="fa fa-flag"></i><span>Put the ribbon on your photo</span></h2>
+            <a href="#" data-toggle="modal" data-target="#ribbonModal"><img src="/ribbon/img/ribbons/orange.png"></a>
+          </div>
         </div>
         <div class="col-md-4">
           <div class="light-box box-hover">
@@ -245,22 +253,32 @@
             <p><a href="mailto:francisco@salvefrancisco.com">francisco@salvefrancisco.com</a></p>
           </div>
         </div>
-      </div>
-    </section>
-    <!--
-    METAS
-    <section class="metas text-center section-padding">
-    <div class="container">
-    <div class="row">
-    <div class="col-md-12">
-    <h1 class="pt">Nossas metas</h1>
+        <div class="camisetas col-md-8">
+          <br><br>
+          <div class="light-box box-hover">
+            <h2 class="pt"><i class="fa fa-shopping-cart"></i><span>Compre uma camiseta</span></h2>
+            <h2 class="es"><i class="fa fa-shopping-cart"></i><span>Compre una camiseta</span></h2>
+            <h2 class="en"><i class="fa fa-shopping-cart"></i><span>Buy a t-shirt</span></h2>
+            <a href="http://www.teeser.com.br/-salvefrancisco-ct-b12df" target="_blank">
+              <img src="/img/banner-camisetas.jpg">
+            </a>
+          </div>
+        </div>
+      </section>
+      <!--
+      METAS
+      <section class="metas text-center section-padding">
+      <div class="container">
+      <div class="row">
+      <div class="col-md-12">
+      <h1 class="pt">Nossas metas</h1>
+    </div>
   </div>
-</div>
-<div class="row">
-<div class="col-xs-12 col-sm-6 col-md-4">
-<h3 class="pt">Documentos</h3>
-<div class="progress">
-<div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+  <div class="row">
+  <div class="col-xs-12 col-sm-6 col-md-4">
+  <h3 class="pt">Documentos</h3>
+  <div class="progress">
+  <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
 </div>
 </div>
 </div>
@@ -598,5 +616,23 @@ METAS
     ga('create', 'UA-58651609-1', 'auto');
     ga('send', 'pageview');
   </script>
+  <div id="ribbonModal" class="modal fade">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h3 class="modal-title">
+            <span class="pt">Coloque a fita na sua foto</span>
+            <span class="es">Ponga la cinta en su foto</span>
+            <span class="en">Put the ribbon on your photo</span>
+          </h3>
+        </div>
+        <div class="modal-body">
+          <iframe id="ribbonIframe" border=0 style="border: 0; width: 100%; height: 450px;"></iframe>
+          <script>$(function(){ $('#ribbonIframe').attr('src', '/ribbon/#' + lang)})</script>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
 </body>
 </html>
